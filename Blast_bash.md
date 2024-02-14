@@ -28,23 +28,17 @@ $ makeblastdb -help
 ~~~
 
 5. Descargar la información de la secuencia de proteínas para BRCA1 humano. Guardelo con el nombre de archivo "brca1_pep.fa" (mv).
- Abra la secuencia con:
-
+[secuencia_BRCA1](https://raw.githubusercontent.com/BioUPS/omicas64/main/BRCA1%20%5BHomo%20sapiens%5D.fasta)
+Puede crear el archivo brca1, copiando la secuencia, usando:
+~~~
 $ nano brca1_pep.fasta
-
-Para guardar con nano, escriba Ctrl-X, luego escriba Y. A continuación, podemos EXPLOTAR el archivo brca1 pep.fasta que creamos.
-
+~~~
+6. Realizar la búsqueda con BLASTp en el archivo brca1 pep.fasta, creado en el paso anterior.
+~~~
 $ blastp -query brca1_pep.fasta -db swissprot.fa > brca1_swissprot
-
- 
-
-¿Tienen sentido para ti los mejores éxitos? Puede buscar en NCBI Protein algunas de las identificaciones.
-
+~~~
+7. Revise los resultados, qué información nos proveen. 
+~~~
 $ less brca1_swissprot
-
- 
-
-¿Cuáles son los mejores éxitos? ¿Tiene sentido el orden de las secuencias en términos de lo que sabes de biología?
-
-También puede hacer BLAST la secuencia en la base de datos “no redundante” “nr” pegándola en la herramienta web NCBI BLAST: https://blast.ncbi.nlm.nih.gov/Blast.cgi . Tenga en cuenta que, en teoría, podría hacer esto especificando “nr” para la base de datos, pero muchos servidores no lo tienen descargado (¡es un archivo muy grande!).
-
+~~~
+¿Cuáles son los mejores alineamientos?
