@@ -17,7 +17,7 @@ $ wget ftp://ftp.ncbi.nih.gov/blast/db/FASTA/swissprot.gz
 $ mv swissprot swissprot.fa
 ~~~
  
-4. Crear una base de datos con el siguiente comando:ls
+4. Crear una base de datos con el siguiente comando:
 ~~~
 $ makeblastdb -in swissprot.fa -input_type fasta -title swissprot -dbtype prot
 ~~~
