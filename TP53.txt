@@ -1,1 +1,4 @@
-El gen TP53 codifica una proteína supresora de tumores que responde a diversos tipos de estrés celular. Desempeña un papel importante en la prevención del cáncer y también se sabe que está mutado en la mayoría de los cánceres humanos. Encuentre la localización y el número de transcripciones alternativas del gen TP53 en humanos e infiera la historia evolutiva de la ganancia y pérdida del gen TP53 en diferentes genomas disponibles en la base de datos.
+El gen TP53 codifica una proteína supresora de tumores que responde a diversos tipos de estrés celular. 
+Desempeña un papel importante en la prevención del cáncer y también se sabe que está mutado en la mayoría de los cánceres humanos. 
+Encuentre la localización y el número de transcripciones alternativas del gen TP53 en humanos.
+Infiera la historia evolutiva de la ganancia y pérdida del gen TP53 en diferentes genomas disponibles en la base de datos.
