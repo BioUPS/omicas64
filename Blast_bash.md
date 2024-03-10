@@ -1,5 +1,10 @@
 #BLASTing a una base de datos de proteínas
 
+Para instalar en el terminal:
+~~~
+$ sudo apt install ncbi-blast+
+~~~
+
 1. Contruir una base de datos. En una carpeta llamada "blast" (mkdir), descargue la base de datos Swissprot de NCBI con el siguiente comando:
 
 ~~~
