@@ -1,4 +1,4 @@
-#BLASTing a una base de datos de proteínas
+# BLASTing a una base de datos de proteínas
 
 Para instalar en el terminal:
 ~~~
