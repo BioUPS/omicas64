@@ -44,6 +44,6 @@ $ blastp -query brca1_pep.fasta -db swissprot.fa > brca1_swissprot
 ~~~
 7. Revise los resultados, qué información nos proveen. 
 ~~~
-$ less brca1_swissprot
+$ head brca1_swissprot
 ~~~
 ¿Cuáles son los mejores alineamientos?
